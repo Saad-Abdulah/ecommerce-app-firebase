@@ -111,7 +111,7 @@ const HomePageProductCard = ({ selectedCategory = 'all' }) => {
                                                     {title.substring(0, 25)}
                                                 </h1>
                                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                                                    ₹{price}
+                                                     {price} /-
                                                 </h1>
 
                                                 <div className="flex justify-center">
@@ -121,9 +121,9 @@ const HomePageProductCard = ({ selectedCategory = 'all' }) => {
                                                                 e.stopPropagation();
                                                                 deleteCart(item);
                                                             }}
-                                                            className="bg-red-700 hover:bg-red-800 w-full text-white py-[4px] rounded-lg font-bold"
+                                                            className="bg-red-600 hover:bg-red-700 w-32 text-white py-1 rounded-md text-sm font-medium transition-colors"
                                                         >
-                                                            Remove From Cart
+                                                            Remove from Cart
                                                         </button>
                                                     ) : (
                                                         <button
@@ -131,9 +131,9 @@ const HomePageProductCard = ({ selectedCategory = 'all' }) => {
                                                                 e.stopPropagation();
                                                                 addCart(item);
                                                             }}
-                                                            className="bg-blue-500 hover:bg-blue-600 w-full text-white py-[4px] rounded-lg font-bold"
+                                                            className="bg-blue-600 hover:bg-blue-700 w-22 text-white py-1 rounded-md text-sm font-medium transition-colors"
                                                         >
-                                                            Add To Cart
+                                                            Add to Cart
                                                         </button>
                                                     )}
                                                 </div>

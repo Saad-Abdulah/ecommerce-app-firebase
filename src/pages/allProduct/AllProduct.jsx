@@ -115,11 +115,11 @@ const AllProduct = () => {
                                 </div>
                                 <div className="p-4">
                                     <h3 className="text-lg font-medium text-gray-900 mb-2">
-                                        {product.title.substring(0, 30)}
+                                        {product.title.substring(0, 25)}
                                     </h3>
                                     <p className="text-gray-500 mb-2">{product.category}</p>
                                     <p className="text-xl font-semibold text-gray-900">
-                                        ₹{product.price}
+                                         { product.price} /-
                                     </p>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ const AllProduct = () => {
                                             e.stopPropagation();
                                             deleteFromCartHandler(product);
                                         }}
-                                        className="w-full bg-red-600 hover:bg-red-700 text-white py-2 rounded-lg font-medium transition-colors"
+                                        className="w-32 mx-auto block bg-red-600 hover:bg-red-700 text-white py-1 rounded-md text-sm font-medium transition-colors"
                                     >
                                         Remove from Cart
                                     </button>
@@ -140,7 +140,7 @@ const AllProduct = () => {
                                             e.stopPropagation();
                                             addToCartHandler(product);
                                         }}
-                                        className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-medium transition-colors"
+                                        className="w-22 mx-auto block bg-blue-600 hover:bg-blue-700 text-white py-1 rounded-md text-sm font-medium transition-colors"
                                     >
                                         Add to Cart
                                     </button>

@@ -3,20 +3,51 @@
 ## Overview
 A feature-rich e-commerce platform built with React and Firebase, offering a seamless shopping experience. The platform includes user and admin dashboards, product management, shopping cart functionality, and a modern UI powered by Material Tailwind and Redux.
 
+## Screenshots
+
+### Home Page
+<img src="public/Screenshots/Home-page.png" alt="Home Page" width="600"/>
+
+### Product Search
+<img src="public/Screenshots/Search-function.png" alt="Search Function" width="600"/>
+
+### Product Details
+<img src="public/Screenshots/Product-info.png" alt="Product Info" width="600"/>
+
+### Shopping Cart
+<img src="public/Screenshots/CartPage.png" alt="Cart Page" width="600"/>
+
+### Admin Dashboard
+<img src="public/Screenshots/Admin-Dashboard.png" alt="Admin Dashboard" width="600"/>
+
+### Product Management
+<img src="public/Screenshots/Add-product.png" alt="Add Product" width="600"/>
+
+### Delete Confirmation
+<img src="public/Screenshots/confirmation-msgfordel.png" alt="Delete Confirmation" width="600"/>
+
 ## Key Features
-- **User Authentication**: Separate user and admin access with protected routes
+- **User Authentication**: 
+  - Separate user and admin access with protected routes
+  - Secure login and signup functionality
+
 - **Product Management**: 
   - Admin dashboard for product operations (Add/Update)
   - Product catalog with detailed product information
   - Shopping cart functionality
+  - Real-time product search
+
 - **User Features**:
   - User dashboard
   - Product browsing and search
   - Cart management
+  - Order tracking
+
 - **Modern UI/UX**: 
   - Responsive design with Material Tailwind
   - Toast notifications for user feedback
   - Smooth scrolling experience
+  - Category-based filtering
 
 ## Technology Stack
 
@@ -32,7 +63,7 @@ A feature-rich e-commerce platform built with React and Firebase, offering a sea
 ### Backend & Services
 - **Firebase**: ^11.10.0
   - Authentication
-  - Data Storage
+  - Firestore Database
   - Hosting
 
 ### Development Tools
@@ -56,25 +87,10 @@ src/
 └── assets/        # Static assets
 ```
 
-## Features
-### User Features
-- Browse products
-- View product details
-- Shopping cart management
-- User authentication
-- Protected user dashboard
-
-### Admin Features
-- Protected admin dashboard
-- Add new products
-- Update existing products
-- Product management
-
 ## Security Features
 - Protected routes for users and admins
 - Firebase Authentication
 - Secure data management
-
 
 ## License
 No licence required Boss..!!

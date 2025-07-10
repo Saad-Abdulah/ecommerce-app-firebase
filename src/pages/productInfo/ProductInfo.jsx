@@ -167,7 +167,7 @@ const ProductInfo = () => {
                                         </ul>
                                     </div>
                                     <p className="inline-block text-2xl font-semibold text-gray-700 dark:text-gray-400 ">
-                                        <span>₹{product.price}</span>
+                                        <span> { product.price}</span>
                                     </p>
                                 </div>
                                 <div className="mb-6">
@@ -183,14 +183,14 @@ const ProductInfo = () => {
                                         ?
                                         <button
                                             onClick={() => deleteCart(product)}
-                                            className="bg-red-700 hover:bg-pink-600 w-full text-white py-[4px] rounded-lg font-bold">
-                                            Remove From Cart
+                                            className="bg-red-600 hover:bg-red-700 w-32 text-white py-1 rounded-md text-sm font-medium transition-colors">
+                                            Remove from Cart
                                         </button>
                                         :
                                         <button
                                             onClick={() => addCart(product)}
-                                            className="bg-pink-500 hover:bg-pink-600 w-full text-white py-[4px] rounded-lg font-bold">
-                                            Add To Cart
+                                            className="bg-blue-600 hover:bg-blue-700 w-22 text-white py-1 rounded-md text-sm font-medium transition-colors">
+                                            Add to Cart
                                         </button>
                                     }
                                 </div>

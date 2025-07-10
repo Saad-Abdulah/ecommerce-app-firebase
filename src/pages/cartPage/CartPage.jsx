@@ -283,9 +283,9 @@ const CartPage = () => {
                                                     </div>
                                                     <p className="mt-1 text-sm text-gray-500">{item.category}</p>
                                                     <div className="mt-1 flex items-center justify-between">
-                                                        <p className="text-lg font-medium text-gray-900">₹{item.price}</p>
+                                                        <p className="text-lg font-medium text-gray-900"> {item.price}</p>
                                                         <p className="text-sm text-gray-600">
-                                                            Total: ₹{calculateItemTotal(item).toFixed(2)}
+                                                            Total:  {calculateItemTotal(item).toFixed(2)}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -322,7 +322,7 @@ const CartPage = () => {
                                         <dt className="text-sm text-gray-800">
                                             Selected Items ({selectedItems.length})
                                         </dt>
-                                        <dd className="text-sm font-medium text-gray-900">₹ {calculateTotal().toFixed(2)}</dd>
+                                        <dd className="text-sm font-medium text-gray-900">  {calculateTotal().toFixed(2)}</dd>
                                     </div>
                                     <div className="flex items-center justify-between py-4">
                                         <dt className="flex text-sm text-gray-800">
@@ -332,7 +332,7 @@ const CartPage = () => {
                                     </div>
                                     <div className="flex items-center justify-between border-y border-dashed py-4 ">
                                         <dt className="text-base font-medium text-gray-900">Total Amount</dt>
-                                        <dd className="text-base font-medium text-gray-900">₹ {calculateTotal().toFixed(2)}</dd>
+                                        <dd className="text-base font-medium text-gray-900">  {calculateTotal().toFixed(2)}</dd>
                                     </div>
                                 </dl>
                                 <div className="px-2 pb-4 font-medium text-green-700">
