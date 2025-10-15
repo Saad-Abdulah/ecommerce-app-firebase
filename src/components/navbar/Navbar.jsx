@@ -99,7 +99,7 @@ const Navbar = () => {
                     {/* left  */}
                     <div className="flex-shrink-0">
                         <Link to={'/'}>
-                            <h2 className="font-bold text-white text-2xl">E-Bharat</h2>
+                            <h2 className="font-bold text-white text-2xl">E-Pak</h2>
                         </Link>
                     </div>
 

@@ -105,7 +105,7 @@ const HomePageProductCard = ({ selectedCategory = 'all' }) => {
                                             </div>
                                             <div className="p-6">
                                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                                                    E-bharat
+                                                    E-Pak
                                                 </h2>
                                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                                                     {title.substring(0, 25)}
